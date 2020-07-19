@@ -1,0 +1,17 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-attachment: fixed;
+    animation-name: background-change ;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background-change {
+    0%{background-image: url(./img/background-1.jpg);}
+    20%{background-image: url(./img/background-2.jpg);}
+    40%{background-image: url(./img/background-3.jpg);}
+    60%{background-image: url(./img/background-4.jpg);}
+    80%{background-image: url(./img/background-5.jpg);}
+    100%{background-image: url(./img/background-1.jpg);}
+   }

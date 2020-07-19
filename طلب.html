@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>طلب خدمة</title>
+    <link rel="stylesheet" href="./css/style-all.css">
+    <link rel="stylesheet" href="./css/style-flex.css">
+    <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/preloder.css">
+
+</head>
+<body>
+
+  <div class="preload">
+    <div class="cir-1"></div>
+    <div class="cir-2"></div>
+    <div class="cir-3"></div>
+    <div class="cir-4"></div>
+    <div class="cir-5"></div>
+    <div class="cir-6"></div>
+    </div>
+
+      <div class="card">
+        <div id="logo" class="card-p"> 
+          <img id="" class="logo" src="./img/logo f.png">
+        </div> 
+        <a id="home" class="card-p" href="./صفحة رئيسية.html">
+          <div class="btn-nav-1"> الصفحة الرئيسية </div>
+        </a>
+        <a id="profile" class="card-p" href="./حساب الشخصي.html">
+          <div class="btn-nav-1"> حساب الشخصي</div>
+        </a>
+        <a id="order" class="card-p" href="./طلب.html ">
+          <div class="btn-nav-1"> طلب تحليل</div>
+        </a>
+        <a id="consultation" class="card-p" href="./إستشارة.html">
+          <div class="btn-nav-3" > إستشارة</div>
+        </a>
+        <a id="results" class="card-p" href="./نتائج.html">
+          <div class="btn-nav-1" > نتائج تحليل  </div>
+        </a>
+        <a id="menarls" class="card-p" href="./عناصر.html">
+          <div class="btn-nav-3"> عناصر </div>
+        </a>
+      </div>
+
+        <div class="flex">
+              <div class="left">
+                <div class="middle">
+                  <p> : اختر نوع التحليل</p>
+                </div>
+                <div class="flex-div-main">
+                  <div class="flex-div">
+                     <button id="btn-ALL" onclick=all_cart()  class="btn-list"><b>الكل</b></button>
+                     <button id="btn-CBC" onclick=cbc_cart() class="btn-list">CBC</button>
+                     <button id="btn-TFT" onclick=tft_cart()  class="btn-list">TFT</button>
+                     <button id="btn-TSH" onclick=tsh_cart()  class="btn-list">TSH</button>
+                     <button id="btn-CRB" onclick=crb_cart()  class="btn-list">CRB</button>
+                  </div>
+                  <div class="flex-div">
+                     <button id="btn-D"   onclick=d_cart()  class="btn-list">VIT D</button>
+                     <button id="btn-B12" onclick=b12_cart()  class="btn-list">VIT B12</button>
+                     <button id="btn-C"   onclick=c_cart()  class="btn-list">VIT C</button>
+                     <button id="btn-ESR" onclick=esr_cart()  class="btn-list">ESR</button>
+                     <button id="btn-IRON"onclick=iron_cart()  class="btn-list">IRON</button>
+                  </div>
+               </div>
+               <!-- <div class="flex-div-main">
+                  <div class="flex-div">
+                     <button class="btn-list"><b>الكل</b></button>
+                     <button class="btn-list">البول</button>
+                     <button class="btn-list">البراز</button>
+                  </div>
+              </div> -->
+            </div>
+            <div class="right">
+                <div class="middle">
+                    <p>: تحاليل تم اختيارها</p>
+                </div>
+                <div class="ul">
+                    <ul id="cart-list" class="ul"></ul>
+                </div>
+                <div class="flex-div btn-order-div">
+                    <a href="./طلب-1.html"><button class="btn-order">طلب</button></a>
+                    <button id="btn-CANS" onclick=cans_cart() class="btn-order">إلغاء</button>
+                </div>
+            </div>
+        </div>
+    <script src="./js/cart.js"></script>
+
+    
+</body>
+</html>
+

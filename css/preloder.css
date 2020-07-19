@@ -1,0 +1,109 @@
+
+.preload{
+  position: fixed;
+  top:0;
+  width:100%;
+  height:100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+
+.preload-finish{
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.cir-1, .cir-2, .cir-3, .cir-4, .cir-5, .cir-6{
+  position: absolute;
+  bottom: 0%;
+}
+
+.cir-1{
+    width: 200px;
+    height:200px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 8%;
+    transform: translate(-8%, 100%);
+    animation: cirs 3.5s ease-in infinite;
+
+
+}
+
+.cir-2{
+    width: 130px;
+    height:130px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 20%;
+    transform: translate(-20%, 100%);
+    animation: cirs 3.5s ease infinite 3.5s;
+
+}
+
+.cir-3{
+    width: 90px;
+    height:90px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 48%;
+    transform: translate(-48%, 100%);
+    animation: cirs 3.5s ease infinite 4s;
+
+}
+
+.cir-4{
+    width: 200px;
+    height:200px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 63%;
+    transform: translate(-63%, 100%);
+    animation: cirs 3.5s ease-in-out infinite 1.5s;
+
+}
+
+.cir-5{
+    width: 100px;
+    height:100px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 79%;
+    transform: translate(-79%, 100%);
+    animation: cirs 3.5s ease-in-out infinite 3s;
+
+}
+
+.cir-6{
+    width: 140px;
+    height:140px ;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.14) ;
+    background-image: linear-gradient( 210deg, rgba(0,0,0,0), rgba(255, 255, 255, 1)); 
+    left: 90%;
+    transform: translate(-90%, 100%);
+    animation: cirs 3.5s ease-in-out infinite 0.9s;
+
+}
+
+@keyframes cirs{
+    from{
+        bottom: 0%;
+
+    }
+    to{
+        bottom: 150%
+
+    }
+}

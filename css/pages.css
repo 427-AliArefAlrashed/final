@@ -1,0 +1,353 @@
+.location-pages-1{
+    position: absolute;
+    left:15%;
+    top:65%; 
+    transition: 1.5s;
+  }
+
+  .location-pages-2{
+    position: absolute;
+    left:43%;
+    top:65%;
+    transition: 1.5s; 
+  }
+
+  .location-pages-3{
+    position: absolute;
+    left:71%;
+    top:65%;
+    transition: 1.5s; 
+  }
+
+  .line1{
+    width: 175px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:5%; 
+    background-color:black;
+  }
+  .line2{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:10%; 
+    background-color:black;
+  }.line3{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:15%; 
+    background-color:black;
+  }
+  .line4{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:20%; 
+    background-color:black;
+  }
+  .line5{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:25%; 
+    background-color:black;
+  }
+  .line6{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:30%; 
+    background-color:black;
+  }
+  .line7{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:35%; 
+    background-color:black;
+  }
+  .line8{
+    width: 170px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:45%; 
+    background-color:black;
+  }
+  .line9{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:50%; 
+    background-color:black;
+  }
+  .line10{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:55%; 
+    background-color:black;
+  }
+  .line11{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:60%; 
+    background-color:black;
+  }
+  .line12{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:65%; 
+    background-color:black;
+  }.line13{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:70%; 
+    background-color:black;
+  }
+  .line14{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:75%; 
+    background-color:black;
+  }
+  .line15{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:80%; 
+    background-color:black;
+  }
+  .line16{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:85%; 
+    background-color:black;
+  }
+  .line17{
+    width: 140px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:90%; 
+    background-color:black;
+  }
+  .line18{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:95%; 
+    background-color:black;
+  }
+  .line19{
+    width: 180px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:50%; 
+    background-color:black;
+  }
+  .line20{
+    width: 180px;
+    height: 3px;
+    position: absolute;
+    left:5%;
+    top:55%; 
+    background-color:black;
+  }
+  
+  .w-page{
+    width: 200px;
+    height: 240px;
+    position: absolute;
+  /*   left:50%;
+    top:50%; */
+    background-color:white;
+    box-shadow: 0px 000px 21px 9px rgba(30, 30, 60, 0.5);
+  }
+  
+  .b-page{
+    width: 135px;
+    height: 190px;
+    background-color:white;
+    border-right: solid  25px;
+    box-shadow: 0px 000px 21px 9px rgba(30, 30, 60, 0.5);
+    transform: rotate(4deg);
+    transition: 1.5s;
+  }
+  .line1b{
+    width: 100px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:5%; 
+    background-color:black;
+  }
+  .line2b{
+    width: 105px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:10%; 
+    background-color:black;
+  }.line3b{
+    width: 0px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:15%; 
+    background-color:black;
+  }
+  .line4b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:20%; 
+    background-color:black;
+  }
+  .line5b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:25%; 
+    background-color:black;
+  }
+  .line6b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:30%; 
+    background-color:black;
+  }
+  .line7b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:35%; 
+    background-color:black;
+  }
+  .line8b{
+    width: 100px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:45%; 
+    background-color:black;
+  }
+  .line9b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:50%; 
+    background-color:black;
+  }
+  .line10b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:55%; 
+    background-color:black;
+  }
+  .line11b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:60%; 
+    background-color:black;
+  }
+  .line12b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:65%; 
+    background-color:black;
+  }.line13b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:70%; 
+    background-color:black;
+  }
+  .line14b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:75%; 
+    background-color:black;
+  }
+  .line15b{
+    width: 115px;
+    height: 3px;
+      position: absolute;
+    left:5%;
+    top:80%; 
+    background-color:black;
+  }
+  .line16b{
+    width: 115px;
+    height: 3px;
+    position: absolute;
+    left:5%;
+    top:85%; 
+    background-color:black;
+  }
+  .line17b{
+    width: 115px;
+    height: 3px;
+    position: absolute;
+    left:5%;
+    top:85%; 
+    background-color:black;
+  }
+  .line19b{
+    width: 115px;
+    height: 3px;
+    position: absolute;
+    left:5%;
+    top:85%; 
+    background-color:black;
+  }
+
+  .location-pages-1:hover{
+    transform: scale(1.2,1.2)
+  }
+
+  .location-pages-2:hover{
+    transform: scale(1.2,1.2)
+  }
+
+  .location-pages-3:hover{
+    transform: scale(1.2,1.2)
+  }
